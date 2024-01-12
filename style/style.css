@@ -4,5 +4,74 @@
 
 *{
     font-family: 'Inter', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
 
+.btn-primary{
+
+    border-radius: 8px;
+    background: #FF900E;
+    width: 180px;
+    height: 64px;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* header style */
+header{
+    background-color: #FF900E1A;
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.nav-title{
+    color: var(--Dark-01, #131313);
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    font-weight: 500;
+    font-size: 1rem ;
+    margin-right: 30px;
+}
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+
+
+/* banner styles */
+
+.banner-contant{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title{
+    font-size: 4rem;
+    color: var(--Dark-01, #131313);
+    text-align: center;
+    font-weight: 700;
+}
+
+.banner-description{
+    color: var(--Dark-03, #727272);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
 }
