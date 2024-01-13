@@ -111,3 +111,58 @@ nav li a {
     }
     
  }
+
+
+
+ /* main section style */
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* team style */
+
+.team-container{
+    display: flex;
+    align-items: center;
+}
+section div img{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+}
+.team-contant{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.team-title{
+    font-size: 2.8rem;
+}
+
+.Quick-list{
+    color: var(--Dark-03, #727272);
+
+font-family: Work Sans;
+font-size: 45px;
+font-weight: 500;
+
+}
+.of-Our{
+    color: var(--Dark-01, #131313);
+font-family: Work Sans;
+font-size: 45px;
+font-weight: 700;
+}
+.text-feature{
+    color: #FF900E;
+font-family: Work Sans;
+font-size: 45px;
+font-weight: 700;
+}
